@@ -1,0 +1,14 @@
+.root {
+}
+
+:global {
+	.abc {
+		// abc là class thường, chưa được hash
+	}
+}
+
+:global() {
+	.abc {
+		// abc là class đã được hash bởi css module
+	}
+}
